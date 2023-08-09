@@ -61,7 +61,7 @@ const Services = () => {
         <div className="mb-16 text-center">
           <h3 className="text-base text-gray-500 font-bold tracking-wide uppercase">Features</h3>
           <p className="mt-2 text-5xl lg:text-7xl font-bold tracking-tight text-teal-500">
-            How we can help your requirements
+            How we can help your Business
           </p>
         </div>
         <div className="flex flex-wrap my-12">
