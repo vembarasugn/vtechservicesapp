@@ -67,7 +67,7 @@ const Services = () => {
         <div className="flex flex-wrap my-12">
           <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
             <div className="flex items-center mb-6">
-              <Check fill="currentColor" className="h-6 w-6 text-teal-500"/>
+              <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG1.svg" alt="drawer"/>
               <div className="ml-4 text-xl">Quality Assurance</div>
             </div>
             <p className="leading-loose text-gray-500">
@@ -76,7 +76,7 @@ const Services = () => {
           </div>
           <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
             <div className="flex items-center mb-6">
-              <Check fill="currentColor" className="h-6 w-6 text-teal-500"/>
+              <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG2.svg" alt="check"/>
               <div className="ml-4 text-xl">Customized Solutions</div>
             </div>
             <p className="leading-loose text-gray-500">
@@ -85,7 +85,7 @@ const Services = () => {
           </div>
           <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
             <div className="flex items-center mb-6">
-              <Check fill="currentColor" className="h-6 w-6 text-teal-500"/>
+              <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG3.svg" alt="html tag" />
               <div className="ml-4 text-xl">Customer Satisfaction</div>
             </div>
             <p className="leading-loose text-gray-500">
@@ -94,7 +94,7 @@ const Services = () => {
           </div>
           <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8">
             <div className="flex items-center mb-6">
-              <Check fill="currentColor" className="h-6 w-6 text-teal-500"/>
+             <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg" alt="monitor"/>
               <div className="ml-4 text-xl">Expertise</div>
             </div>
             <p className="leading-loose text-gray-500">
