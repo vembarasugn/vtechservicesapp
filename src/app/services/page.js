@@ -59,7 +59,7 @@ const Services = () => {
     <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
       <div className="container mx-auto px-6 p-6 bg-gray-300">
         <div className="mb-16 text-center">
-          <h4 className="text-semibold text-gray-700 font-semibold tracking-wide uppercase">Features</h4>
+          <h3 className="text-base text-gray-500 font-bold tracking-wide uppercase">Features</h3>
           <p className="mt-2 text-5xl lg:text-7xl font-bold tracking-tight text-teal-500">
             How we can help your requirements
           </p>
