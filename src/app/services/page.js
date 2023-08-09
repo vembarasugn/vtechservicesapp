@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Check from '/public/check.svg';
 
 const Services = () => {
   return (
@@ -54,7 +55,7 @@ const Services = () => {
         </article>
       </div>
     </div>
-    <div className="pb-10 pt-8">
+    {/* <div className="pb-10 pt-8">
       <dh-component>
         <section className="max-w-8xl mx-auto bg-gray pt-16">
               <div>
@@ -116,7 +117,57 @@ const Services = () => {
         </div>
         </section>
         </dh-component> 
+      </div> */}
+    <section className="bg-white pb-6">
+    <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+      <div className="container mx-auto px-6 p-6 bg-white">
+        <div className="mb-16 text-center">
+          <h4 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Features</h4>
+          <p className="mt-2 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900">
+            How we change the game
+          </p>
+        </div>
+        <div className="flex flex-wrap my-12">
+          <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
+            <div className="flex items-center mb-6">
+              <Check width={20} height={20} fill="currentColor" className="h-6 w-6 text-teal-500"/>
+              <div className="ml-4 text-xl">Quality Assurance</div>
+            </div>
+            <p className="leading-loose text-gray-500">
+            At V-TECH Renewables, we prioritize quality in every aspect of our work. We adhere to industry standards and best practices, ensuring that our services are delivered to the highest level of quality. Our team conducts thorough inspections, performs rigorous testing, and implements strict quality control measures throughout the project lifecycle. We source equipment and components from reputable manufacturers and suppliers to ensure reliability and performance. By employing robust quality assurance processes, we guarantee the reliability and longevity of the systems we design and implement, providing peace of mind to our clients.
+            </p>
+          </div>
+          <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
+            <div className="flex items-center mb-6">
+              <Check width={20} height={20} fill="currentColor" className="h-6 w-6 text-teal-500"/>
+              <div className="ml-4 text-xl">Customized Solutions</div>
+            </div>
+            <p className="leading-loose text-gray-500">
+            We understand that each client has unique requirements, and we tailor our solutions accordingly. Our team collaborates closely with clients to understand their goals and objectives, site conditions, and budget constraints. This collaborative approach allows us to develop customized strategies and recommendations that meet their specific needs, ensuring optimal system performance, energy savings, and return on investment. We consider factors such as shading analysis, energy consumption patterns, available roof space, and local regulations to design solar power systems that are tailored to each client's location and objectives.
+            </p>
+          </div>
+          <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
+            <div className="flex items-center mb-6">
+              <Check width={20} height={20} fill="currentColor" className="h-6 w-6 text-teal-500"/>
+              <div className="ml-4 text-xl">Customer Satisfaction</div>
+            </div>
+            <p className="leading-loose text-gray-500">
+            Client satisfaction is our ultimate goal. We strive to exceed our clients' expectations by providing exceptional customer service and support throughout the project lifecycle. Our dedicated team of professionals is committed to open communication, transparency, and responsiveness. We listen to our clients' concerns, address their inquiries promptly, and keep them informed at every stage of the project. We also provide comprehensive post-installation support, including maintenance, troubleshooting, and system optimization. Our commitment to superior customer service enables us to build long-lasting relationships with our clients, based on trust and mutual success.
+            </p>
+          </div>
+          <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8">
+            <div className="flex items-center mb-6">
+              <Check width={20} height={20} fill="currentColor" className="h-6 w-6 text-teal-500"/>
+              <div className="ml-4 text-xl">Expertise</div>
+            </div>
+            <p className="leading-loose text-gray-500">
+            With over a decade of experience, our team comprises highly-skilled professionals with extensive knowledge in electrical engineering, solar power projects, and project management. Continuous learning and development are key to our success, and we stay abreast of the latest technologies, regulations, and industry trends. This expertise allows us to provide the best-in-class services to our clients, ensuring that their projects are executed to the highest standards.We strive to deliver the best results for every project and are continually improving our processes and technology to ensure that our customers get the most value for their money.
+            </p>
+          </div>
+        </div>
       </div>
+    </div>
+    </section>
   </div>
  )
 };
