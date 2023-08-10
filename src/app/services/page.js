@@ -77,7 +77,7 @@ const Services = () => {
             <div className="flex items-center mb-6">
               <div className="ml-4 text-xl text-teal-500">Customized Solutions</div>
             </div>
-            <p className="leading-loose text-gray-400 text-justify">
+            <p className="leading-loose text-gray-500 text-justify">
             We understand that each client has unique requirements, and we tailor our solutions accordingly. Our team collaborates closely with clients to understand their goals and objectives, site conditions, and budget constraints. This collaborative approach allows us to develop customized strategies and recommendations that meet their specific needs, ensuring optimal system performance, energy savings, and return on investment. We consider factors such as shading analysis, energy consumption patterns, available roof space, and local regulations to design solar power systems that are tailored to each client's location and objectives.
             </p>
           </div>
@@ -85,7 +85,7 @@ const Services = () => {
             <div className="flex items-center mb-6">
               <div className="ml-4 text-xl text-teal-500">Customer Satisfaction</div>
             </div>
-            <p className="leading-loose text-gray-400 text-justify">
+            <p className="leading-loose text-gray-500 text-justify">
             Client satisfaction is our ultimate goal. We strive to exceed our clients' expectations by providing exceptional customer service and support throughout the project lifecycle. Our dedicated team of professionals is committed to open communication, transparency, and responsiveness. We listen to our clients' concerns, address their inquiries promptly, and keep them informed at every stage of the project. We also provide comprehensive post-installation support, including maintenance, troubleshooting, and system optimization. Our commitment to superior customer service enables us to build long-lasting relationships with our clients, based on trust and mutual success.
             </p>
           </div>
@@ -93,7 +93,7 @@ const Services = () => {
             <div className="flex items-center mb-6">
               <div className="ml-4 text-xl text-teal-500">Expertise</div>
             </div>
-            <p className="leading-loose text-gray-400 text-justify">
+            <p className="leading-loose text-gray-500 text-justify">
             With over a decade of experience, our team comprises highly-skilled professionals with extensive knowledge in electrical engineering, solar power projects, and project management. Continuous learning and development are key to our success, and we stay abreast of the latest technologies, regulations, and industry trends. This expertise allows us to provide the best-in-class services to our clients, ensuring that their projects are executed to the highest standards.We strive to deliver the best results for every project and are continually improving our processes and technology to ensure that our customers get the most value for their money.
             </p>
           </div>
