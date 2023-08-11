@@ -15,7 +15,7 @@ const Landingpage = () => {
             </span><br/>
             Services!  
           </h1>
-          <p className="leading-normal text-base md:text-2xl mb-8 text-center text-gray-400 font-semibold md:text-left">
+          <p className="leading-normal text-base md:text-2xl mb-8 text-center text-gray-400 font-semibold md:text-left tracking-tight">
           We strive to deliver the best results for our every project and technology to ensure that our customers get the most value for their money.
           </p>
           <form className="bg-gray-800 opacity-75 w-full shadow-lg rounded px-8 pt-6 pb-8 mb-4">

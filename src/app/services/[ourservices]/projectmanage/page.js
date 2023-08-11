@@ -12,7 +12,7 @@ const projectManagement = () => {
     <div className="flex flex-col items-stretch justify-between max-w-lg">
       <div className='border-gray-500 pt-10'>
         <h2 className="font-medium mb-8 text-teal-500">PROJECT MANAGEMENT</h2>
-        <p className="text-gray-400 mb-7 text-justify">
+        <p className="text-gray-400 mb-7 text-justify tracking-tight">
         At V-TECH Renewables, effective project management is at the core of what we do. We understand the complexities involved in electrical and solar power projects and strive to deliver exceptional results within budget and timeline constraints. Our experienced project managers take a proactive approach, ensuring thorough planning, efficient resource allocation, and seamless coordination among various stakeholders. We keep our clients updated throughout the project's lifecycle, providing regular progress reports, and addressing any challenges that may arise. Our commitment to meticulous project management ensures successful project completion and client satisfaction.
         </p>
       </div>

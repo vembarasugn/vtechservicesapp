@@ -32,11 +32,11 @@ const navBar = () => {
             </Link>    
           </div>
             <div className="flex hidden sm:ml-6 sm:block"> 
-              <Link href="/" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">HOME</Link>
-              <Link href="/aboutus" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">ABOUT</Link>
-              <Link href="/services" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">SERVICES</Link>
-              <Link href="/projects" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300" >PROJECTS</Link>
-              <Link href="/contactus" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">CONTACT</Link>
+              <Link href="/" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">HOME</Link>
+              <Link href="/aboutus" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">ABOUT</Link>
+              <Link href="/services" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">SERVICES</Link>
+              <Link href="/projects" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300" >PROJECTS</Link>
+              <Link href="/contactus" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">CONTACT</Link>
             </div>
           </div> 
           </div>
