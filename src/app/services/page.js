@@ -33,7 +33,7 @@ const Services = () => {
             <p className="mt-5 leading-6 text-justify text-gray-400 font-sans text-base line-clamp-6">As advocates of renewable energy, we offer consultancy and implementation services for solar power projects. Our dedicated team of solar energy experts assists clients in designing, installing, and maintaining efficient solar power solutions. Whether it's a small residential installation or a large-scale commercial project, we tailor our services to each client's unique needs and location. With a focus on maximizing solar energy generation, we utilize the latest technologies, such as photovoltaic (PV) panels, energy storage systems,and smart grid integration, to deliver cost-effective and sustainable solar power projects.Our team also provides ongoing monitoring and maintenance services to ensure optimal system performance and longevity.</p>
           </div>
           <div className="flex justify-center lg:justify-start mt-6 ">
-              <Link className="mx-4 px-4 py-3 bg-gray-300 text-gray-800 text-xs font-semibold rounded hover:bg-gray-400" href="/services/ourservices/solar">
+              <Link className="px-4 py-2 text-gray-100 bg-gray-500 rounded dark:bg-gray-400 dark:hover:bg-teal-500  hover:bg-gray-400" href="/services/ourservices/solar">
               Learn More
               </Link>
             </div>
@@ -47,7 +47,7 @@ const Services = () => {
             <p className="mt-5 leading-6 text-justify text-gray-400 font-sans text-base line-clamp-6">At V-TECH Renewables, effective project management is at the core of what we do. We understand the complexities involved in electrical and solar power projects and strive to deliver exceptional results within budget and timeline constraints. Our experienced project managers take a proactive approach, ensuring thorough planning, efficient resource allocation, and seamless coordination among various stakeholders. We keep our clients updated throughout the project's lifecycle, providing regular progress reports,and addressing any challenges that may arise. Our commitment to meticulous project management ensures successful project completion and client satisfaction.</p>
           </div>
           <div className="flex justify-center lg:justify-start mt-5">
-            <Link className="mx-4 px-4 py-3 bg-gray-300 text-gray-800 text-xs font-semibold rounded hover:bg-gray-400" href="/services/ourservices/projectmanage">
+            <Link className="px-4 py-2 text-gray-100 bg-gray-500 rounded dark:bg-gray-400 dark:hover:bg-teal-500  hover:bg-gray-400" href="/services/ourservices/projectmanage">
             Learn More
             </Link>
           </div>
