@@ -21,7 +21,8 @@ const services = () => {
         </a>
       </div>
       <div className='w-full p-2 lg:w-1/2 md:w-1/2 hidden md:block'>
-        <Image src='/Electricals2.jpg' alt='electricimg1' className='rounded'/>
+        <Image src='/Electricals2.jpg' alt='electricimg1' className='rounded' width={800}
+        height={800}/>
       </div>
     </div>
     </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Check from '/public/check.svg';
 
 const Services = () => {
   return (
@@ -16,7 +15,7 @@ const Services = () => {
             <h3 className="mt-3 text-lg font-bold leading-6 text-teal-500 group-hover:text-teal-400">
               <span className="absolute inset-0 no-underline hover:underline decoration-4">ELECTRICAL PROJECTS</span>  
             </h3><br/>
-            <Image src="/Electricals1.jpg" alt="Electricalimg" className="rounded"/>
+            <Image src="/Electricals1.jpg" alt="Electricalimg" className="rounded" width={500} height={50}/>
             <p className="mt-5 leading-6 text-justify text-gray-400 font-sans text-base line-clamp-6">At V-TECH Renewables, we pride ourselves on our in-depth knowledge and experience in electrical projects. From initial design and planning to installation and maintenance, we provide end-to-end consulting services, ensuring that our clients electrical systems meet their specific requirements. Our team of highly skilled electrical engineers and technicians has a proven track record of delivering successful projects for various industries, including residential, commercial, and industrial sectors. We work closely with our clients, understanding their needs and delivering innovative solutions that optimize energy efficiency enhance safety, and ensure reliable power distribution.</p>
           </div>
           <div className="flex justify-center lg:justify-start mt-6 ">
@@ -44,7 +43,7 @@ const Services = () => {
             <h3 className="mt-3 text-lg font-bold leading-6 text-teal-500 group-hover:text-teal-400">
               <span className="absolute inset-0 no-underline hover:underline decoration-4">PROJECT MANAGEMENT</span> 
             </h3><br/>
-            <Image src="/projectmanagement1.jpg" alt="projectmanagementimg" className="rounded"/>
+            <Image src="/projectmanagement1.jpg" alt="projectmanagementimg" className="rounded"  width={500} height={50}/>
             <p className="mt-5 leading-6 text-justify text-gray-400 font-sans text-base line-clamp-6">At V-TECH Renewables, effective project management is at the core of what we do. We understand the complexities involved in electrical and solar power projects and strive to deliver exceptional results within budget and timeline constraints. Our experienced project managers take a proactive approach, ensuring thorough planning, efficient resource allocation, and seamless coordination among various stakeholders. We keep our clients updated throughout the project's lifecycle, providing regular progress reports,and addressing any challenges that may arise. Our commitment to meticulous project management ensures successful project completion and client satisfaction.</p>
           </div>
           <div className="flex justify-center lg:justify-start mt-5">

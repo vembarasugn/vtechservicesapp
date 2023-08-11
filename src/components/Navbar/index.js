@@ -8,8 +8,8 @@ const navBar = () => {
   const [isOpen,setIsOpen] = React.useState(false);
   
   return (
-  <header className="absolute inset-x-0 top-0 z-50">
-  <nav className="bg-gray-800">
+  <>
+    <nav className="bg-gray-800">
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div className="relative flex h-16 items-center justify-between">
         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -26,15 +26,16 @@ const navBar = () => {
         </div>
         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">  
         <div className="w-full justify-between flex items-center">
-          <Link href="/">
-           <Image className="h-20 w-40" src="/vtechlogonew.png" alt="vtech-logo"/></Link>       
+          <div className="sm:ml-6 sm:block">
+            <Link href="/">
+             <Image  src="/vtechlogonew.png" alt="vtech-logo" width={200} height={170}/>
+            </Link>    
           </div>
-          <div className="hidden sm:ml-6 sm:block">
-            <div className="flex space-x-4">
+            <div className="flex hidden sm:ml-6 sm:block"> 
               <Link href="/" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">HOME</Link>
               <Link href="/aboutus" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">ABOUT</Link>
               <Link href="/services" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">SERVICES</Link>
-              <Link href="/projects" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">PROJECTS</Link>
+              <Link href="/projects" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300" >PROJECTS</Link>
               <Link href="/contactus" className="bg-gray-800 px-3 py-2 font-bold text-base hover:text-teal-500 no-underline hover:underline decoration-4 text-gray-300">CONTACT</Link>
             </div>
           </div> 
@@ -55,10 +56,11 @@ const navBar = () => {
       </ul>
       </div>  
     </div>
-  </nav> 
-</header>
-)
+   </nav> 
+  </>
+ )
 };
 
 export default navBar;
+
 

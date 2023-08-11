@@ -13,7 +13,7 @@ const Landingpage = () => {
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-gray-500 to-blue-400">
             Renewable
             </span><br/>
-             services!  
+            Services!  
           </h1>
           <p className="leading-normal text-base md:text-2xl mb-8 text-center text-gray-400 font-semibold md:text-left">
           We strive to deliver the best results for our every project and technology to ensure that our customers get the most value for their money.
@@ -48,8 +48,10 @@ const Landingpage = () => {
             Download our apps: Coming Soon..
           </p>
           <div className="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
-            <Image src="App Store.svg" className="h-12 pr-12 transform hover:scale-125 " />
-            <Image src="Play Store.svg" className="h-12 transform hover:scale-125" />
+            <img src="App Store.svg" alt='appstore-img' className="h-12 pr-12 transform hover:scale-125" 
+            />
+            <img src="Play Store.svg" alt='playstore-img' className="h-12 transform hover:scale-125" 
+            />
           </div>
         </div>
      </div>
