@@ -89,7 +89,7 @@ const Services = () => {
             <div className="flex items-center mb-6">
               <div className="ml-4 text-xl text-teal-500">Quality Assurance</div>
             </div>
-            <p className="leading-loose text-gray-400 text-justify tracking-tight ">
+            <p className="leading-loose text-gray-500 text-justify tracking-tight ">
             At V-TECH Renewables, we prioritize quality in every aspect of our work. We adhere to industry standards and best practices, ensuring that our services are delivered to the highest level of quality. Our team conducts thorough inspections, performs rigorous testing, and implements strict quality control measures throughout the project lifecycle. We source equipment and components from reputable manufacturers and suppliers to ensure reliability and performance. By employing robust quality assurance processes, we guarantee the reliability and longevity of the systems we design and implement, providing peace of mind to our clients.
             </p>
           </div>
