@@ -53,7 +53,7 @@ function NewsletterForm() {
           <div className="gap-3 md:flex">
             <input
               type="email"
-              className="peer text-gray-200 w-full rounded border-gray-300 bg-gray-200 py-3 pl-7 pr-12 text-gray-700 focus:border-white focus:ring-white peer-invalid:text-pink-600 dark:border-zinc-500 dark:bg-zinc-900 dark:focus:ring-white sm:text-sm"
+              className="peer text-gray-200 w-full rounded border-gray-300 bg-gray-200 py-3 pl-7 pr-12  focus:border-white focus:ring-white peer-invalid:text-pink-600 dark:border-zinc-500 dark:bg-zinc-900 dark:focus:ring-white sm:text-sm"
               placeholder="Please enter your email"
               autoComplete="email"
               required
