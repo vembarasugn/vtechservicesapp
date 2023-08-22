@@ -12,7 +12,7 @@ const solar = () => {
     <div className="flex flex-col items-stretch justify-between max-w-lg">
       <div className='border-gray-500 pt-10'>
         <h2 className="font-medium mb-8 text-teal-500">SOLARPOWER PROJECTS</h2>
-        <p className="text-gray-400 mb-7 text-justify tracking-tight">
+        <p className="text-gray-600 mb-7 text-justify tracking-tight">
         As advocates of renewable energy, we offer consultancy and implementation services for solar power projects. Our dedicated team of solar energy experts assists clients in designing, installing, and maintaining efficient solar power solutions. Whether it's a small residential installation or a large-scale commercial project, we tailor our services to each client's unique needs and location. With a focus on maximizing solar energy generation, we utilize the latest technologies, such as photovoltaic (PV) panels, energy storage systems, and smart grid integration, to deliver cost-effective and sustainable solar power projects. Our team also provides ongoing monitoring and maintenance services to ensure optimal system performance and longevity.
         </p>
       </div>

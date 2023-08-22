@@ -1,11 +1,11 @@
 import React from "react";
-import Image from 'next/image';
+import Image from "next/image";
 
 function Projects(){
   return (
     <>
-      <section className="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
-          <div className="mt-10 px-8">
+      <section className="pt-15 pb-10 lg:pt-[120px] lg:pb-20">
+          <div className="mt-5 px-8">
             <h1 className="text-teal-500 text-5xl font-semibold xxs:text-2xl xs:text-2xl sm:text-3xl lg:text-4xl xl:text-4xl">
             OUR PROJECTS
             </h1>
@@ -14,7 +14,7 @@ function Projects(){
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
-                <p className="text-base text-gray-400 ">
+                <p className="text-lg text-gray-600 ">
                   Find our below projects for your reference.
                 </p>
               </div>
@@ -63,20 +63,20 @@ const BlogCard = ({ Image, date, CardTitle, CardDescription }) => {
         <div className="mx-auto mb-10 max-w-[370px]">
           <div>
             {date && (
-              <span className="inline-block px-4 py-1 mb-5 text-xs font-semibold leading-loose text-center text-teal-500 rounded bg-primary">
+              <span className="inline-block px-4 py-1 mb-5 text-xs font-semibold leading-loose text-center text-gray-600 rounded bg-primary">
                 {date}
               </span>
             )}
             <h3>
               <a
                 href="/#"
-                className="inline-block mb-4 text-xl font-semibold text-gray-500 hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+                className="inline-block mb-4 text-xl font-semibold text-teal-500 hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
               >
                 {CardTitle}
               </a>
             </h3>
             <img src={Image} alt="" className="w-full rounded"/>
-            <p className="text-base text-gray-500 text-justify">{CardDescription}</p>
+            <p className="text-base text-gray-600 text-justify">{CardDescription}</p>
           </div>
           <div className="pt-4">
             <a href="#" className="px-4 py-2 text-gray-100 bg-gray-500 rounded dark:bg-gray-400 dark:hover:bg-teal-500  hover:bg-gray-400">Learn more<span aria-hidden="true">→</span></a>
@@ -84,5 +84,5 @@ const BlogCard = ({ Image, date, CardTitle, CardDescription }) => {
         </div>
       </div>
     </>
-  );
+  )
 };

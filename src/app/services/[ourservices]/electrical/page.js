@@ -12,7 +12,7 @@ const services = () => {
       <div className="flex flex-col items-stretch justify-between max-w-lg">
         <div className='border-gray-500 pt-10'>
           <h2 className="font-medium mb-8 text-teal-500">ELECTRICAL PROJECTS</h2>
-          <p className="text-gray-400 mb-7 text-justify tracking-tight">
+          <p className="text-gray-600 mb-7 text-justify tracking-tight">
           At V-TECH Renewables, we pride ourselves on our in-depth knowledge and experience in electrical projects. From initial design and planning to installation and maintenance, we provide end-to-end consulting services, ensuring that our clients electrical systems meet their specific requirements. Our team of highly skilled electrical engineers and technicians has a proven track record of delivering successful projects for various industries, including residential, commercial, and industrial sectors. We work closely with our clients, understanding their needs and delivering innovative solutions that optimize energy efficiency enhance safety, and ensure reliable power distribution.",
           </p>
         </div>
